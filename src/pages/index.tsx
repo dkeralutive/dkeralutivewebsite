@@ -8,54 +8,52 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>TypeScript starter for Next.js</title>
+        <meta name="description" content="Dermile skin care" />
+
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
+        <title>Dermile — Your Skin At It's Best</title>
+        <meta name="title" content="Dermile — Your Skin At It's Best" />
         <meta
           name="description"
-          content="TypeScript starter for Next.js that includes all you need to build amazing apps"
+          content="Beauty, cosmetic & personal care. Your skin at its best! Nigerian 🇳🇬 brand. Dm to order. Only payment validates the order. Nationwide shipping is available."
         />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://metatags.io/" />
+        <meta property="og:title" content="Dermile — Your Skin At It's Best" />
+        <meta
+          property="og:description"
+          content="Beauty, cosmetic & personal care. Your skin at its best! Nigerian 🇳🇬 brand. Dm to order. Only payment validates the order. Nationwide shipping is available."
+        />
+        <meta property="og:image" content="/images/logos/color-logo.svg" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://dermile.com/" />
+        <meta
+          property="twitter:title"
+          content="Dermile — Your Skin At It's Best"
+        />
+        <meta
+          property="twitter:description"
+          content="Beauty, cosmetic & personal care. Your skin at its best! Nigerian 🇳🇬 brand. Dm to order. Only payment validates the order. Nationwide shipping is available."
+        />
+        <meta property="twitter:image" content="/images/logos/color-logo.svg" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <Image
+          src="/images/logos/black-no-background.svg"
+          alt="Vercel Logo"
+          width={512}
+          height={260}
+        />
+
+        <h1 className={styles.title}>our web shop is lunching soon...</h1>
 
         <p className={styles.description}>
-          Get started by editing{` `}
-          <code className={styles.code}>pages/index.tsx</code>
+          <code className={styles.code}>Beauty, cosmetic & personal care</code>
         </p>
-
-        <p className={styles.description}>This is not an official starter!</p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=typescript-nextjs-starter"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
       </main>
 
       <footer className={styles.footer}>
@@ -64,10 +62,8 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{` `}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          Build with 🥑 by{`  `}
+          <b style={{ paddingLeft: `8px` }}>Boldsofts Digital</b>
         </a>
       </footer>
     </div>

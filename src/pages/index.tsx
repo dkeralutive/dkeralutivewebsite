@@ -58,11 +58,11 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=typescript-nextjs-starter"
+          href="https://boldsofts.digital"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Build with 🥑 by{`  `}
+          Built with 🥑 by{`  `}
           <b style={{ paddingLeft: `8px` }}>Boldsofts Digital</b>
         </a>
       </footer>

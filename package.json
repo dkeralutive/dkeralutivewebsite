@@ -3,7 +3,7 @@
   "description": "Dermile official website",
   "version": "1.0.0",
   "private": true,
-  "author": "João Pedro Schmitz <hey@joaopedro.dev> (@jpedroschmitz)",
+  "author": "Rex Isaac Raphael <me@xraph.com> (@rex_raph)",
   "license": "MIT",
   "keywords": [
     "nextjs",
@@ -22,8 +22,8 @@
   },
   "lint-staged": {
     "./src/**/*.{ts,js,jsx,tsx}": [
-      "yarn lint --fix",
-      "yarn format"
+      "pnpm run lint -- --fix",
+      "pnpm run format"
     ]
   },
   "dependencies": {

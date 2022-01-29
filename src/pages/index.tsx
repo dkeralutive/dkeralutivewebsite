@@ -44,7 +44,7 @@ export default function Home() {
       <main className={styles.main}>
         <Image
           src="/images/logos/black-no-background.svg"
-          alt="Vercel Logo"
+          alt="Dermile Logo"
           width={512}
           height={260}
         />

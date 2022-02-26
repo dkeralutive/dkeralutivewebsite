@@ -19,7 +19,7 @@ export default function Home() {
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://metatags.io/" />
+        <meta property="og:url" content="https://dermile.com" />
         <meta property="og:title" content="Dermile — Your Skin At It's Best" />
         <meta
           property="og:description"
@@ -28,7 +28,7 @@ export default function Home() {
         <meta property="og:image" content="/images/logos/color-logo.svg" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://dermile.com/" />
+        <meta property="twitter:url" content="https://dermile.com" />
         <meta
           property="twitter:title"
           content="Dermile — Your Skin At It's Best"

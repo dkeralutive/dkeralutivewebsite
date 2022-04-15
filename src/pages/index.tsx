@@ -49,7 +49,7 @@ export default function Home() {
           height={260}
         />
 
-        <h1 className={styles.title}>our web shop is lunching soon...</h1>
+        <h1 className={styles.title}>our web shop is launching soon...</h1>
 
         <p className={styles.description}>
           <code className={styles.code}>Beauty, cosmetic & personal care</code>

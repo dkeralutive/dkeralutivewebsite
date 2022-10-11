@@ -1,6 +1,14 @@
 import { AppProps } from 'next/app';
-import '@/styles/global.css';
+import { AppProvider } from '@/context/AppContext';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '@/public/css/preset.css';
+import '@/public/css/style.css';
+import '@/public/css/all.min.css';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <AppProvider>
+      <Component {...pageProps} />
+    </AppProvider>
+  );
 }

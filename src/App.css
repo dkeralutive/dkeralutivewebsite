@@ -1,5 +1,12 @@
 .App {
+  width: 100vw;
+  height: 100vh;
   text-align: center;
+  background: url(./images/image605.png);
+  background-size: cover;
+  overflow-x: hidden !important;
+
+
 }
 
 .App-logo {
@@ -14,14 +21,16 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: absolute;
+  left: -0.13%;
+  right: 0%;
+  width: 100vw;
+  height: 100vh;
+  top: 0%;
+  bottom: 85.53%;
+  mix-blend-mode: overlay;
+  opacity: 0.4;
+  border-radius: 14px;
 }
 
 .App-link {

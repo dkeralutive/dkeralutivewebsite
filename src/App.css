@@ -1,6 +1,6 @@
 .App {
   width: 100vw;
-  height: 100vh;
+  height: 150vh;
   text-align: center;
   background: url(./images/image605.png);
   background-size: cover;
@@ -33,6 +33,13 @@ top: 48px;
   top: 797px;
   background: #EA0C0F;
 
+}
+.menuside{
+position: absolute;
+width: 215.24px;
+height: 214.46px;
+left: 1122px;
+top: 385px;
 }
 
 .App-logo {

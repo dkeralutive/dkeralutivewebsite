@@ -6,12 +6,53 @@
   background-size: cover;
   overflow-x: hidden !important;
 
+  
+/* position: absolute;
+left: -0.13%;
+right: 0%;
+top: 0%;
+bottom: 85.53%;
+background: url(./images/image605.png);
+mix-blend-mode: overlay;
+opacity: 0.4;
+border-radius: 14px */
+
+}
+.nav{
+  position: absolute;
+width: 1275px;
+height: 86px;
+left: 103px;
+top: 48px;
+}
+.menu{
+  position: absolute;
+  width: 115px;
+  height: 115px;
+  left: 116px;
+  top: 797px;
+  background: #EA0C0F;
 
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.menutext{
+  position: absolute;
+width: 670px;
+height: 78px;
+left: 257px;
+top: 819px;
+
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 26px;
+
+color: #7e3535 !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {

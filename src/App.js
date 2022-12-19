@@ -1,22 +1,42 @@
 import logo from './images/Group.png';
 import logos from './images/Group1915.png';
+import eclipse from './images/Ellipse.png';
+import group11 from './images/Group111.png';
+
+
 
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      {/* <header className="App-header"> */}
-       <div children="nav">
+    <div className="Apps">
+       <div className="App">
         <img src={logo}/>
-       </div>
-       <div children="nav">
+        <div children="nav">
         <img src={logos}/>
-       </div>
-       <div>
+        <img src={group11}/>
 
        </div>
-      {/* </header> */}
+       {/* <div  className="menuside">
+
+       </div> */}
+       <div className="menu">
+       <img src={eclipse}/>
+       </div>
+       <div>
+        <div  className="menutext">
+        Intrigued by beauty, fascinated by technology and fuelled with 
+        an everlasting devotion to digital craftsmanship and meaningful 
+        aesthetics.
+        </div>
+       </div>
+      
+       </div>
+       
+
+      
+       
+      
     </div>
   );
 }
